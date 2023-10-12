@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import HomePage from './Pages/HomePage'
 import Scrollbars from 'react-custom-scrollbars-2';
+import Footer from '../Footer';
 
 const Content = () => {
   return (
@@ -16,6 +17,7 @@ const Content = () => {
         <Route path='anime' element={<MoviePage />} />
         <Route path='best' element={<Page />} /> */}
       </Routes>
+      <Footer />
       </Scrollbars>
     </div>
   )
